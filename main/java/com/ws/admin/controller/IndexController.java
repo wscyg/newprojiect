@@ -41,4 +41,9 @@ public class IndexController {
     public String reMain(){
         return "main";
     }
+
+    @GetMapping("/main.html")
+    public String rMain(){
+        return "main";
+    }
 }
